@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Gllacy Shop</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body class="page-pink">
+    <header class="main-header">
+      <nav class="navigation">
+        <img class="logo" src="images/logo-gllacy.svg" width="137" height="56" alt="Logo of Gllacy Shop.">
+        <ul class="navigation-list">
+          <li class="navigation-item navigation-item-catalog">
+            <a class="navigation-link" href="catalog.html">Our products</a>
+            <ul class="subcatalog">
+              <li class="subcatalog-item">
+                <span class="subcatalog-title">New</span>
+              </li>
+              <li class="subcatalog-item">
+                <a class="subcatalog-link" href="">Creamy</a></li>
+              <li class="subcatalog-item">
+                <a class="subcatalog-link" href="">Sorbets</a>
+              </li>
+              <li class="subcatalog-item">
+                <a class="subcatalog-link" href="">Fruit lollies</a>
+              </li>
+              <li class="subcatalog-item">
+                <a class="subcatalog-link" href="">Mellorine ice cream</a></li>
+            </ul>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="delivery.html">Delivery and payments</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="about.html">About us</a>
+          </li>
+        </ul>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="tel:01220552500"><span class="telephone">0122 055 2500</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-search" href="#">
+              <svg class="navigation-icon" aria-hidden="true" focusable="false" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.913 7.246a5.333 5.333 0 1 1 9.17 3.705.666.666 0 0 0-.132.132 5.333 5.333 0 0 1-9.038-3.837Zm9.552 5.162a6.667 6.667 0 1 1 .943-.943l2.81 2.81a.667.667 0 1 1-.943.943l-2.81-2.81Z" />
+              </svg>
+              <span class="visually-hidden">
+              Search
+              </span>
+            </a>
+            <div class="popover popover-search">
+            <div class="popover-content">
+                <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+                  <p class="field-group">
+                    <label class="visually-hidden" for="search">Search</label>
+                    <input class="search-form-field field" type="text" id="search" name="search" placeholder="Search">
+                  </p>
+                  <button class="popover-close-button">
+                    <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.803 4.13807C13.0634 3.87772 13.0634 3.45561 12.803 3.19526C12.5427 2.93491 12.1206 2.93491 11.8602 3.19526L7.99914 7.05633L4.13807 3.19526C3.87772 2.93491 3.45561 2.93491 3.19526 3.19526C2.93491 3.45561 2.93491 3.87772 3.19526 4.13807L7.05633 7.99914L3.19526 11.8602C2.93491 12.1206 2.93491 12.5427 3.19526 12.803C3.45561 13.0634 3.87772 13.0634 4.13807 12.803L7.99914 8.94195L11.8602 12.803C12.1206 13.0634 12.5427 13.0634 12.803 12.803C13.0634 12.5427 13.0634 12.1206 12.803 11.8602L8.94195 7.99914L12.803 4.13807Z" fill="#B9B9B9"/>
+                    </svg>
+
+                      <span class="visually-hidden">Close</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-login" href="#">
+              <svg class="navigation-icon" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.2.87c0-.36.3-.66.68-.66h3a2.17 2.17 0 0 1 2.16 2.17v10.5a2.17 2.17 0 0 1-2.16 2.16h-3a.67.67 0 0 1 0-1.33h3a.83.83 0 0 0 .83-.84V2.38a.83.83 0 0 0-.84-.83h-3a.67.67 0 0 1-.66-.67ZM5.66 3.4a.67.67 0 0 1 .95 0l3.74 3.75a.66.66 0 0 1 0 .95L6.6 11.85a.67.67 0 1 1-.95-.95l2.62-2.6H.87a.67.67 0 0 1 0-1.34h7.4L5.65 4.35a.67.67 0 0 1 0-.95Z" fill="#2D3440"/></svg>
+              Sign in
+            </a>
+            <div class="popover popover-auth">
+              <div class="popover-content">
+                <h2 class="popover-title">Personal account</h2>
+                <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+                  <p class="field-group">
+                    <label class="visually-hidden" for="auth-email">email@example.com</label>
+                    <input class="auth-form-field field" type="email" id="auth-email" name="auth-email" value="email@example.com" required>
+                  </p>
+                  <p class="field-group">
+                    <label class="visually-hidden" for="auth-password">Password</label>
+                    <input class="auth-form-field field" type="password" id="auth-password" name="auth-password" value="password">
+                  </p>
+                  <p class="field-group auth-form-user-options">
+                    <button class="button-red auth-form-button" type="submit">Sign in</button>
+                    <a class="auth-form-recovery" href="#">Forgot password?</a>
+                    <a class="auth-form-register" href="#">Don't have an account? Sign up!</a>
+                  </p>
+                </form>
+              </div>
+            </div>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-cart" href="#">
+              <svg class="navigation-icon" width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.31.49a.67.67 0 0 0 0 1.33h2.06l.54 2.7.01.05 1.1 5.44a1.97 1.97 0 0 0 1.96 1.6h6.32a1.97 1.97 0 0 0 1.96-1.6l1.05-5.47a.67.67 0 0 0-.66-.8H5.12l-.55-2.71a.67.67 0 0 0-.65-.54h-2.6Zm5.01 9.26L5.4 5.08h9.46l-.9 4.68a.64.64 0 0 1-.63.5H6.96a.64.64 0 0 1-.64-.5ZM5.21 14.2a1.32 1.32 0 1 1 2.64 0 1.32 1.32 0 0 1-2.64 0Zm7.17 0a1.32 1.32 0 1 1 2.64 0 1.32 1.32 0 0 1-2.64 0Z" fill="#2D3440"/></svg>
+              <span class="visually-hidden">
+              Shopping cart
+              </span> Empty
+            </a>
+            <div class="popover popover-cart-empty">
+              <div class="popover-content">
+                <h2 class="popover-title">No items in your cart</h2>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </nav>
+    </header>
+    <main class="main-container main-index">
+      <h1 class="visually-hidden">Gllacy Shop</h1>
+
+      <div class="first-page-container">
+        <section class="description">
+          <h2 class="visually-hidden">Description</h2>
+          <h3 class="description-title">Ice cream sundae<br>with strawberry jam</h3>
+          <p class="description-text">Natural ice cream made of fresh cream and milk with delicious strawberry jam is the perfect dessert for the whole family.
+          </p>
+          <a href="#" class="button button-order">Order now</a>
+        </section>
+
+        <section class="gallery">
+          <h2 class="visually-hidden">Gallery of ice cream with different flavors</h2>
+          <div class="ice-cream-wrapper">
+            <div class="ice-cream-background">
+              <img class="slider-image-1" src="images/ice-cream-1.png" width="306" height="507" alt="Image of ice cream with strawberry jam.">
+            </div>
+            <div class="slider-controls">
+              <button class="slider-button slider-prev" type="button">
+                <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.13526 2.8647C6.87557 2.605 6.45451 2.605 6.19481 2.8647C5.93511 3.12439 5.93511 3.54545 6.19481 3.80515L10.3961 8.00643L6.19477 12.2077C5.93508 12.4674 5.93508 12.8885 6.19477 13.1482C6.45447 13.4079 6.87553 13.4079 7.13523 13.1482L11.8039 8.47949C11.8049 8.47855 11.8058 8.47761 11.8068 8.47666C12.0665 8.21696 12.0665 7.79591 11.8068 7.53621L7.13526 2.8647Z" fill="#2D3440"/>
+                </svg>
+                <span class="visually-hidden">Previous photo</span>
+              </button>
+              <button class="slider-button slider-next" type="button">
+                <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.13526 2.8647C6.87557 2.605 6.45451 2.605 6.19481 2.8647C5.93511 3.12439 5.93511 3.54545 6.19481 3.80515L10.3961 8.00643L6.19477 12.2077C5.93508 12.4674 5.93508 12.8885 6.19477 13.1482C6.45447 13.4079 6.87553 13.4079 7.13523 13.1482L11.8039 8.47949C11.8049 8.47855 11.8058 8.47761 11.8068 8.47666C12.0665 8.21696 12.0665 7.79591 11.8068 7.53621L7.13526 2.8647Z" fill="#2D3440"/>
+                </svg>
+                <span class="visually-hidden">Next photo</span>
+              </button>
+            </div>
+            <img class="slider-image-2" src="images/ice-cream-2-2.png" width="100" height="150" alt="Image of ice cream with banana flavour.">
+            <img class="slider-image-3" src="images/ice-cream-3-3.png" width="100" height="150" alt="Image of ice cream with marshmallows.">
+          </div>
+        </section>
+      </div>
+
+      <div class="pagination-wrapper">
+        <ol class="slider-pagination">
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button slider-pagination-button-current" type="button">
+              <span class="visually-hidden">1 photo</span>
+            </button>
+          </li>
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button slider-pagination-button-second" type="button">
+              <span class="visually-hidden">2 photo</span>
+            </button>
+          </li>
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button slider-pagination-button-third" type="button">
+              <span class="visually-hidden">3 photo</span>
+            </button>
+          </li>
+        </ol>
+        <ul class="social-media-list">
+          <li class="social-media-item">
+            <a class="social-media-link social-media-instagram" href="#">
+              <span class="visually-hidden">Instagram</span>
+            </a>
+          </li>
+          <li class="social-media-item">
+            <a class="social-media-link social-media-fb" href="#">
+              <span class="visually-hidden">Facebook</span>
+            </a>
+          </li>
+          <li class="social-media-item">
+            <a class="social-media-link social-media-vk" href="#">
+              <span class="visually-hidden">VK</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <section class="bonuses">
+        <h2 class="visually-hidden">Bonus offer</h2>
+        <h3 class="bonuses-title">Order ice cream and get gifts!</h3>
+        <ul class="bonuses-list">
+          <li class="bonuses-item-1">
+            <h4 class="bonuses-item-title">Raspberry as a gift!</h4>
+            <p class="bonuses-item-description">When buying 2 kg of any fruit ice cream, we will add a jar of raspberry jam to your order for free.
+            </p>  
+            <a class="button button-gift" href="#" >I want a gift</a>
+          </li>
+          <li class="bonuses-item-2">
+            <h4 class="bonuses-item-title">Marshmallow as a gift!</h4>
+            <p class="bonuses-item-description">When buying 2 kg of ice cream sundae, we will add a package of soft marshmallows to your order for free.
+            </p>  
+            <a class="button button-gift" href="#" >I want a gift</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="flavours">
+        <h2 class="visually-hidden">Products</h2>
+        <h3 class="flavours-title">Try the most popular flavours of our ice cream</h3>
+        <ul class="product-list">
+          <li class="product-card">
+            <a class="product-card-image-link" href="#">
+              <img class="product-card-image" src="images/products/product-1.png" width="168" height="168" alt="Raspberry flavour.">
+            </a>
+            <a class="product-card-title-link" href="">
+              <h4 class="product-card-title">Raspberry</h4>
+            </a>
+            <a class="product-card-description-link" href="">
+              <p class="product-card-description">Creamy ice cream<br> with raspberry jam</p>
+            </a>
+            <b class="product-card-price">7.00 £/kg</b>
+            <a class="button product-card-button" href="#">
+              <svg aria-hidden="true" focusable="false" width="15" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.17.25a.67.67 0 1 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46V8.8l.93-4.86a.67.67 0 0 0-.66-.8h-9.3L4.14.8a.67.67 0 0 0-.66-.54H1.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H6.18a.5.5 0 0 1-.49-.4ZM4.56 12.5a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z" fill="#FCFCFC"/></svg>
+              <span class="visually-hidden">Add to cart</span>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card-image-link" href="#">
+              <img class="product-card-image" src="images/products/product-2.png" width="168" height="168" alt="Pistachio flavour.">
+            </a>
+            <a class="product-card-title-link" href="">
+              <h4 class="product-card-title">Pistachio</h4>
+            </a>
+            <a class="product-card-description-link" href="">
+              <p class="product-card-description">Pistachio sundae<br>with chocolate chunks</p>
+            </a>
+            <b class="product-card-price">7.50 £/kg</b>
+            <a class="button product-card-button" href="#">
+              <svg aria-hidden="true" focusable="false" width="15" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.17.25a.67.67 0 1 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46V8.8l.93-4.86a.67.67 0 0 0-.66-.8h-9.3L4.14.8a.67.67 0 0 0-.66-.54H1.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H6.18a.5.5 0 0 1-.49-.4ZM4.56 12.5a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z" fill="#FCFCFC"/></svg>
+              <span class="visually-hidden">Add to cart</span>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card-image-link" href="#">
+              <img class="product-card-image" src="images/products/product-3.png" width="168" height="168" alt="Blueberry flavour.">
+            </a>
+            <a class="product-card-title-link" href="">
+              <h4 class="product-card-title">Blueberry</h4>
+            </a>
+            <a class="product-card-description-link" href="">
+              <p class="product-card-description">Creme brulee<br>with blueberry jam</p>
+            </a>
+            <b class="product-card-price">7.20 £/kg</b>
+            <a class="button product-card-button" href="#">
+              <svg aria-hidden="true" focusable="false" width="15" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.17.25a.67.67 0 1 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46V8.8l.93-4.86a.67.67 0 0 0-.66-.8h-9.3L4.14.8a.67.67 0 0 0-.66-.54H1.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H6.18a.5.5 0 0 1-.49-.4ZM4.56 12.5a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z" fill="#FCFCFC"/></svg>
+              <span class="visually-hidden">Add to cart</span>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card-image-link" href="#">
+              <img class="product-card-image" src="images/products/product-4.png" width="168" height="168" alt="Bubble gum flavour.">
+            </a>
+            <a class="product-card-title-link" href="">
+              <h4 class="product-card-title">Bubble gum</h4>
+            </a>
+            <a class="product-card-description-link" href="">
+              <p class="product-card-description">Vanilla ice cream sundae<br> with confetti sprinkles</p>
+            </a>
+            <b class="product-card-price">7.10 £/kg</b>
+            <a class="button product-card-button" href="#">
+              <svg aria-hidden="true" focusable="false" width="15" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.17.25a.67.67 0 1 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46V8.8l.93-4.86a.67.67 0 0 0-.66-.8h-9.3L4.14.8a.67.67 0 0 0-.66-.54H1.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H6.18a.5.5 0 0 1-.49-.4ZM4.56 12.5a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z" fill="#FCFCFC"/></svg>
+              <span class="visually-hidden">Add to cart</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="advantages">
+        <h2 class="visually-hidden">Our advantages</h2>
+        <div class="advantages-white-background">
+          <h3 class="advantages-title">Gllacy Shop is an online and offline shop selling ice cream of its own production by weight</h3>
+          <ul class="advantages-list">
+            <li class="advantages-item">
+              <p class="advantages-icon">
+               <img src="images/icons/icon-ice-cream.svg" width="48" height="48" alt="ice cream icon.">
+              </p>
+              <p class="advantages-description">All our ice cream is made in our own production, using modern equipment and time-tested technologies.
+              </p>  
+            </li>
+            <li class="advantages-item">
+              <p class="advantages-icon">
+               <img src="images/icons/icon-cow.svg" width="48" height="48" alt="cow icon">
+              </p>
+              <p class="advantages-description">The purchase of ingredients is made only from proven farms with which we have a long-term cooperation.
+              </p>  
+            </li>
+            <li class="advantages-item">
+              <p class="advantages-icon">
+               <img src="images/icons/icon-leaf.svg" width="48" height="48" alt="leaf icon.">
+              </p>
+              <p class="advantages-description">Cream and milk of the highest quality are used to make ice cream. All ingredients and additives are made from natural raw materials.
+              </p>  
+            </li>
+            <li class="advantages-item">
+              <p class="advantages-icon">
+               <img src="images/icons/icon-thermometer.svg" width="48" height="48" alt="thermometer icon.">
+              </p>
+              <p class="advantages-description">Delivery of our ice cream is carried out in a special thermal bag, which does not allow the ice cream to melt and allows you to preserve the excellent taste.
+              </p>  
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="columns-container">
+        <article class="news">
+          <h2 class="visually-hidden">An article about serving fruit sorbets</h2>
+          <a class="news-link" href="#">Our blog news</a>
+          <h3 class="article">
+            <a class="article-link" href="#">10 ways to serve fruit sorbets</a>
+          </h3>
+        </article>
+
+        <section class="subscription">
+          <div class="subscription-white-background">
+            <h2 class="visually-hidden">Subscription</h2>
+            <p class="subscription-description">Sign up to our sweet newsletter and always be aware of all the delicious things that are happening here. We promise not to spam or send any unnecessary nonsense. </p>
+            <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+              <p class="subscription-email">
+                <label class="visually-hidden" for="subscription-email">Email</label>
+                <input class="field" type="email" name="subscription-email" placeholder="email@example.com" id="subscription-email" required>
+              </p>
+              <button class="button-red subscription-button" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <div class="delivery-background">
+        <section class="delivery">
+          <h2 class="visually-hidden">Delivery</h2>
+          <h3 class="delivery-title">Home delivery of your favourite ice cream</h3>
+          <p class="delivery-description">Do you want to enjoy eating your favorite dessert, but don't have time to go to the stop? Order ice cream home delivery and our courier will bring you your order within an hour!
+          </p>
+        </section>
+
+        <section class="delivery-order">
+          <h2 class="visually-hidden">Arranging delivery</h2>
+          <p class="delivery-text">Specify the address and delivery date, and we will contact you to confirm the order.</p>
+
+          <form class="delivery-form" action="https://echo.htmlacademy.ru/" method="post">
+          <div class="delivery-form-day">
+            <span class="form-label form-label-icon">
+              <label for="delivery-day">Day</label>
+              <button class="info tooltip" type="button">
+                <span class="visually-hidden">View additional information</span>
+                <span class="tooltiptext">Choose delivery day</span>
+              </button>
+            </span>
+            <input class="field" type="text" id="delivery-day" name="delivery-day" placeholder="01.04.2022">
+          </div>
+          <div class="delivery-form-tel">
+            <span class="form-label">
+              <label for="delivery-tel">Phone</label></span>
+              <input class="field" type="text" id="delivery-tel" name="delivery-tel" placeholder="+44 7499 002010" required>
+          </div>
+          <div class="delivery-form-address">
+            <span class="form-label form-label-icon">
+              <label for="delivery-address">Address</label>
+              <button class="info tooltip" type="button">
+                <span class="visually-hidden">View additional information</span>
+                <span class="tooltiptext">Enter the house number, street and your postcode</span>
+              </button>
+            </span>
+            <input class="field" type="text" id="delivery-address" name="delivery-address" placeholder="28 Dorset St, Bath BA2 3RA">
+          </div>
+          <button class="button-red button-delivery-form" type="submit">Submit
+          </button>
+          </form>
+        </section>
+      </div>
+
+      <section class="contacts">
+        <h2 class="visually-hidden">Our contacts</h2>
+        <address class="contacts-address">
+          <p class="contacts-address-text">Our address of the main office<br>and the offline shop:</p>
+          <b>11 York St, Bath<br>BA1 1NG</b>
+          <p class="contacts-address-tel">For orders by phone:</p>
+          <b>0122 055 2500</b>
+          <p class="contacts-address-time">Monday to Friday | 9am - 5pm</p>
+          <a class="button-red button-feedback" href="#">Give us a call</a>
+        </address>
+        
+      </section>
+      
+    </main>
+
+    <footer class="main-footer">
+      <div class="main-footer-container">
+      <section class="footer-social-media">
+        <h2 class="visually-hidden">Our social media links</h2>
+        <ul class="footer-social-media-list">
+          <li class="footer-social-media-item">
+            <a class="footer-social-media-link footer-social-media-instagram" href="#">
+              <span class="visually-hidden">Instagram</span>
+            </a>
+          </li>
+          <li class="footer-social-media-item">
+            <a class="footer-social-media-link footer-social-media-fb" href="#">
+              <span class="visually-hidden">Facebook</span>
+            </a>
+          </li>
+          <li class="footer-social-media-item">
+            <a class="footer-social-media-link footer-social-media-vk" href="#">
+              <span class="visually-hidden">VK</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="footer-additional-info">
+        <h2 class="visually-hidden">Additional information about Gllacy shop</h2>
+        <ul class="footer-additional-info-list">
+          <li class="footer-additional-info-item">
+            <a class="additional-info-link" href=""> 
+              <b>For suppliers</b>
+            </a>
+          </li>
+          <li class="footer-additional-info-item">
+            <a class="additional-info-link" href="">Our documents</a>
+          </li>
+          <li class="footer-additional-info-item">
+            <a class="additional-info-link" href="">About production</a>
+          </li>
+           <li class="footer-additional-info-item">
+            <a class="additional-info-link" href="">Ecological standards</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="footer-rights">
+        <h2 class="visually-hidden">Copyright</h2>
+        <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+          <img class="footer-logo" src="images/logo-htmlacademy.svg" width="93" height="27" alt="Logo of html.academy.">
+        </a>
+        <p class="about-text">Designed in
+          <a class="htmlacademy-link" href="https://htmlacademy.ru/"> .html academy</a> © 2021
+        </p>
+      </section>
+      </div>
+    </footer>
+    <div class="modal-container-close">
+      <div class="modal modal-feedback">
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Мы обязательно ответим вам!</h2>
+          <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
+            <p class="field-group">
+              <label class="visually-hidden" for="feedback-name">Имя и фамилия</label>
+              <input class="feedback-form-field field" type="text" id="feedback-name" name="feedback-name" placeholder="Имя и фамилия">
+            </p>
+            <p class="field-group">
+              <label class="visually-hidden" for="feedback-email">Email</label>
+              <input class="auth-form-field field" type="email" id="feedback-email" name="feedback-email" placeholder="email@example.com">
+            </p>
+            <p class="field-group">
+              <label class="visually-hidden" for="feedback-comments">Комментарии</label>
+              <textarea class="feedback-form-field field textarea" id="feedback-comments" name="feedback-comments" placeholder="В свободной форме"></textarea>
+            </p>
+            <button class="button-red feedback-form-button" type="submit">Отправить</button>
+          </form>
+        </section>
+
+      </div>
+
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
